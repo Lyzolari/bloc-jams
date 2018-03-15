@@ -31,6 +31,22 @@
      ]
  };
 
+  // Another Example Album
+ var albumMadrila = {
+     title: 'Hello Freddie',
+     artist: 'Madrila',
+     label: 'EFA',
+     year: '1937',
+     albumArtUrl: 'assets/images/album_covers/20.png',
+     songs: [
+         { title: 'New York City', duration: '2:01' },
+         { title: 'Finding Love in Spain', duration: '4:01' },
+         { title: 'Pockt Full of Dreams', duration: '3:11'},
+         { title: 'Forever', duration: '3:14' },
+         { title: 'Agan and Again', duration: '3:15'}
+     ]
+ };
+
  var createSongRow = function(songNumber, songName, songLength) {
      var template =
         '<tr class="album-view-song-item">'
